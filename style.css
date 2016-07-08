@@ -1,3 +1,38 @@
+body {
+	background-image: url(http://static1.squarespace.com/static/56cb3e0bf85082a807c001fe/t/56cb8bd120c647ad15b238f0/1456246592500/);
+	font: arial;
+	color: white;
+	letter-spacing: 8px;
+}
 h1 {
-	color: blue;
+	float: left;
+	margin-top: 0
+	font-size: 48px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding-left: 6px;
+	font-size: 14px;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 24px;
+}
+li {
+	display: inline;
+}
+nav {
+	/*clear: left; stops the menu bar from going to top when Forte floated left*/
+	float: right;
+}
+.image-info {
+	clear: left;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	color: black;
+	padding: 10px;
 }
